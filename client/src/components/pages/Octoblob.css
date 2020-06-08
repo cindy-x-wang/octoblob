@@ -1,0 +1,27 @@
+.head-container {
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #E0EBEB;
+
+    display: flex;
+    flex-direction: row;
+}
+.intro-container {
+    width: 1000px;
+    height: auto;
+
+    background: #F1F5F5;
+
+    flex-basis: auto;
+}
+
+.sitting-avatar-container{
+    width: 1000px;
+    height: auto;
+
+    background: #E0EBEB;
+    flex: 0 0 500px;
+}

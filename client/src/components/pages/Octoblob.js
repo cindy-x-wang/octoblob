@@ -4,6 +4,7 @@ import "../../utilities.css";
 import "./Octoblob.css";
 
 import Sitting_Avatar from "./art/Sitting_Avatar.png";
+import Mountain_Border from "./art/mountain_border.png";
 
 class Octoblob extends Component {
   constructor(props) {
@@ -20,13 +21,23 @@ class Octoblob extends Component {
     return(
     <>
     <div className="head-container">
-      <div className="intro-container">
-        <> Hi, I'm Cindy! </>
+      <div className="intro-container u-textCenter">
+        <div className="intro-text">
+           Hi, I'm Cindy! 
+        </div>
+        <div className="intro-text-small">
+          I’m currently studying computer science at MIT, 
+          have one (1) angry cat, and love boba way more than I should.
+        </div>
       </div>
       <div className="sitting-avatar-container">
-        <img src={Sitting_Avatar} width="100%" >
+        <img src={Sitting_Avatar} height="70%" >
         </img>
       </div>
+    </div>
+    <div className="mountain-border">
+        <img src={Mountain_Border}  width="100%">
+        </img>
     </div>
     <div className="head-container">
       <> u r idiot2</>

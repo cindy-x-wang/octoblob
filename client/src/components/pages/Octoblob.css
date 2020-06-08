@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
+
 .head-container {
     width: 100%;
     height: 100vh;
@@ -15,13 +17,52 @@
 
     background: #F1F5F5;
 
-    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sitting-avatar-container{
-    width: 1000px;
-    height: auto;
+    height: 100vh;
 
     background: #E0EBEB;
+    display: flex;
     flex: 0 0 500px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    position: relative;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
+
+    text-align: center;
+
+    color: #C01C74;
+}
+
+.intro-text-small {
+    position: relative;
+    width: 350px;
+
+    margin-top: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.mountain-border {
+    position: absolute;
+    top: calc(100vh - (100vw*0.17578));
 }

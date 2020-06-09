@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
 
+
+/* TODO: break point for height is 600px, width is 800px */
+
 .head-container {
     width: 100%;
     height: 100vh;
@@ -10,17 +13,22 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 .intro-container {
-    width: 1000px;
+    position: absolute;
+    left: calc(50vw - 210px);
+    bottom: calc(50vh - 24px);
     height: auto;
 
-    background: #F1F5F5;
+    background: none;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .sitting-avatar-container{
@@ -40,29 +48,39 @@
     font-family: 'Fjalla One', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 63px;
+    font-size: 35px;
+    line-height: 38px;
 
-    text-align: center;
+    text-align: left;
 
     color: #C01C74;
 }
 
 .intro-text-small {
     position: relative;
-    width: 350px;
+    width: 275px;
 
-    margin-top: 15px;
+    margin-top: 10px;
 
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 34px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
 }
 
 .mountain-border {
     position: absolute;
     top: calc(100vh - (100vw*0.17578));
+}
+
+.blob_container {
+    height: 100vh;
+
+    display: flex;
+    flex: 0 0 500px;
+
+    justify-content: center;
+    align-items: center;
 }

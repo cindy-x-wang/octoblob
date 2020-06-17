@@ -2,14 +2,18 @@
 
 
 /* TODO: break point for height is 600px, width is 800px */
+.bottom, .top {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
 
-.head-container {
+.head-container-intro {
     width: 100%;
     height: 100vh;
-    left: 0px;
-    top: 0px;
+    overflow: hidden;
 
-    background: #E0EBEB;
+    background: #8A92B1;
 
     display: flex;
     flex-direction: row;
@@ -68,6 +72,8 @@
     font-size: 18px;
     line-height: 25px;
     text-align: left;
+
+    color: #283150;
 }
 
 .mountain-border {
@@ -83,4 +89,93 @@
 
     justify-content: center;
     align-items: center;
+}
+
+.head-container-classes {
+    width: 100%;
+    min-height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #FFF9F1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.page-title{
+    width: 100%;
+    margin: 50px;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 38px;
+
+    text-align: center;
+
+    color: #C01C74;
+}
+
+.coursework-page-container {
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coursework-description-container {
+    position: relative;
+    width: 50%;
+
+    padding-top: 100px;
+    padding-right: 100px;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.coursework-description-text {
+    width: 400px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+
+    color: #283150;
+
+    justify-self: right;
+}
+
+.coursework-list-container{
+    width: 50%;
+
+    padding-top: 50px;
+    padding-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.coursework-list-box {
+    max-width: 350px;
+    padding: 20px;
+
+    background: #F6F7FA;
+    border: 6px solid #8A92B1;
+    border-radius: 50px;
+}
+
+.button-container {
+    max-width: 390px;
+    display: flex;
+    justify-content: space-evenly;
 }

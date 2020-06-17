@@ -10,10 +10,7 @@ import Blob_Avatar from "./art/pink_blob_avatar.png";
 import SemesterCard from "../modules/SemesterCard.js";
 
 const allSemesters = [
-  {
-    "semName": "Fall 2020",
-    "semNum": 3,
-  },
+  
   {
     "semName": "Spring 2020",
     "semNum": 2,

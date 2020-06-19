@@ -92,7 +92,7 @@ const allCourses = [
     "name": "What is Capitalism?",
     "number": "21A.461",
     "description": "This class addresses the question \"what is capitalism?\" from a social scientific point of view, rather than a classical economic one.",
-    "commentary": "Did I finally understand integration? We'll see."
+    "commentary": "I've learned that modern youths are not motivated by money, but by boba."
   },
 ];
 
@@ -104,8 +104,8 @@ class Octoblob extends Component {
       showingCSOnly: false,
       showingDescriptions: false,
       showingCommentary: false,
-      allCourses: allCourses,
-      allSemesters: allSemesters,
+      allCourses,
+      allSemesters,
     };
   }
 
@@ -190,6 +190,10 @@ class Octoblob extends Component {
 
         </div>
       </div>
+    </div>
+
+    <div className="head-container-trolol">
+      u suk 
     </div>
   </>
     );

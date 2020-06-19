@@ -26,11 +26,11 @@ class SemesterCard extends Component {
         </div>
         <div>
         {this.props.showingCSOnly ? 
-        this.getSemClasses(this.props.sem.semNum).filter(course => course.CS == true).map((c) => (
-            <div>
-              <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} />
-            </div>
-            ))
+            this.getSemClasses(this.props.sem.semNum).filter(course => course.CS == true).map((c) => (
+                <div>
+                <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} />
+                </div>
+                ))
         : 
             this.getSemClasses(this.props.sem.semNum).map((c) => (
                    <div>

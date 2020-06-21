@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
 import NavBar from "./modules/NavBar.js"
+import Coursework from "./pages/Coursework.js";
 
 import "./App.css";
 import "../utilities.css";
@@ -35,6 +36,9 @@ class App extends Component {
         <Router>
           <Octoblob
             path="/"
+          />
+          <Coursework
+            path="/coursework"
           />
           <Skeleton
             path="/Skeleton"

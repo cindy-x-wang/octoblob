@@ -1,0 +1,35 @@
+.animatedTextContainer {
+    --maskX: 0;
+    --maskY: 0;
+    position: relative;
+    cursor: pointer;
+    user-select:none;
+}
+
+.animatedTextContent {
+    color: #000000;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 8px;
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 1.5;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    cursor: pointer;
+}
+  
+.animatedTextContentClone {
+    composes: animatedTextContent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    transition: all 0.4s ease-out;
+    clip-path: polygon(
+        0 0,
+        calc(var(--maskX) * 1% + (var(--maskY) - 50) * 0.4%) 0,
+        calc(var(--maskX) * 1% + (var(--maskY) - 50) * -0.4%) 100%,
+        0 100%
+    );
+}
+  

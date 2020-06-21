@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { Link } from "@reach/router";
 
 import "./NavBar.css";
+import { AnimatedText } from "./AnimatedText";
 
-/* const NavLink = props => (
+const NavLink = props => (
   <Link
     {...props}
     getProps={({ isCurrent }) => {
@@ -13,12 +14,12 @@ import "./NavBar.css";
       return {
         style: {
          //"font-weight": isCurrent ? 900 : "inherit",
-         textShadow: isCurrent ? "0 0 3px white" : "none",
+         textShadow: isCurrent ? "0 0 1px white" : "none",
         }
       };
     }}
   />
-); */
+);
 
 
 /**
@@ -34,24 +35,39 @@ class NavBar extends Component {
       <>
       <div className="NavBar-container">
       <div className="NavBar-sidebar">
-          
-          <div className="menu-item">
-            SCHOOL THINGS
+          <div className="NavBar-title-container u-pointer">
+            <NavLink to="/" className="title-link">
+              <AnimatedText textColor="#ffffff" overlayColor="#c01c74">
+                cindy wang
+              </AnimatedText>
+            </NavLink>
           </div>
-          <div className="menu-item">
-            two
+          <div className="all-menu-items">
+            <div className="menu-item">
+              <NavLink to="/coursework" className="NavBar-link">
+                school things
+              </NavLink>
+              
+            </div>
+            <div className="menu-item">
+              <NavLink to="/projects" className="NavBar-link">
+                projects
+              </NavLink>
+            </div>
+            <div className="menu-item">
+              <NavLink to="/resume" className="NavBar-link">
+                resume
+              </NavLink>
+            </div>
+            <div className="menu-item">
+              <NavLink to="/about" className="NavBar-link">
+                about
+              </NavLink>
+            </div>
+
           </div>
 
-          <div className="NavBar-title">
-              L
-          </div>
           
-          <div className="menu-item">
-            PROJECTS
-          </div>
-          <div className="menu-item">
-            ABOUT
-          </div>
       </div>
         {/* <div className="NavBar-title-container">
           

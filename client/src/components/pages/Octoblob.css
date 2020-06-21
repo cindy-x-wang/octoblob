@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Major+Mono+Display&family=Manuale&family=Open+Sans&family=Playfair+Display:wght@800&display=swap');
 
 
 /* TODO: break point for height is 600px, width is 800px */
@@ -49,7 +49,7 @@
 .intro-text {
     position: relative;
 
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
@@ -87,108 +87,6 @@
     display: flex;
     flex: 0 0 500px;
 
-    justify-content: center;
-    align-items: center;
-}
-
-.head-container-classes {
-    width: 100%;
-    min-height: 100vh;
-    left: 0px;
-    top: 0px;
-
-    background: #FFF9F1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-
-.page-title{
-    width: 100%;
-    margin: 50px;
-
-    font-family: 'Fjalla One', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 38px;
-
-    text-align: center;
-
-    color: #C01C74;
-}
-
-.coursework-page-container {
-    width: 100%;
-    position: relative;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.coursework-description-container {
-    position: relative;
-    width: 50%;
-
-    padding-top: 100px;
-    padding-right: 100px;
-
-    display: flex;
-    justify-content: flex-end;
-
-}
-.coursework-description-text {
-    width: 400px;
-
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: left;
-
-    color: #283150;
-
-    justify-self: right;
-}
-
-.coursework-list-container{
-    width: 50%;
-
-    padding-top: 50px;
-    padding-left: 100px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.coursework-list-box {
-    max-width: 350px;
-    padding: 20px;
-
-    background: #F6F7FA;
-    border: 6px solid #8A92B1;
-    border-radius: 50px;
-}
-
-.button-container {
-    max-width: 390px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.head-container-trolol {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-
-    background: #8A92B1;
-
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }

@@ -6,6 +6,7 @@ import "./Coursework.css";
 import Sitting_Avatar from "./art/Sitting_Avatar.png";
 import Mountain_Border from "./art/mountain_border.png";
 import Blob_Avatar from "./art/pink_blob_avatar.png";
+import Desk_Avatar from "./art/Desk_Avatar.png";
 
 import SemesterCard from "../modules/SemesterCard.js";
 import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
@@ -131,7 +132,13 @@ class Coursework extends Component {
     return(
     <>
     <div className="head-container-classes">
-      
+      <div className="desk-container">
+        <img src={Desk_Avatar} height="600px" >
+        </img>
+        <div className="page-title">
+            coursework
+        </div>
+      </div>
       <div className="coursework-page-container">
         <div className="coursework-description-container">
           <div className="coursework-description-text">
@@ -174,6 +181,7 @@ class Coursework extends Component {
           <AnimatedText
             textColor="#cd122d"
             overlayColor="#fdc52c"
+            pointer="default"
           >
           this should animate and it doesn't and i am angy
         </AnimatedText>

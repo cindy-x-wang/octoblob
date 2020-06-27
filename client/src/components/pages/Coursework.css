@@ -12,17 +12,26 @@
     align-items: center;
 }
 
+.desk_container {
+    height: 100vh;
+
+    display: flex;
+    flex: 0 0 500px;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .page-title{
     width: 100%;
-    margin: 50px;
 
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
-    line-height: 38px;
 
-    text-align: center;
+    text-align: left;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
 
     color: #C01C74;
 }
@@ -67,7 +76,7 @@
 .coursework-list-container{
     width: 50%;
 
-    padding-top: 50px;
+    padding-top: 10px;
     padding-left: 100px;
 
     display: flex;
@@ -107,7 +116,7 @@
     text-align: center;
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    min-height: 600px;
     background-color: #202952;
     padding: 0 10px;
 }

@@ -2,7 +2,7 @@
     --maskX: 0;
     --maskY: 0;
     position: relative;
-    cursor: pointer;
+    cursor: auto;
     user-select:none;
 }
 
@@ -11,7 +11,7 @@
     font-weight: 600;
     font-size: 30px;
     padding: 8px;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.5;
     text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
     margin: 0;

@@ -135,11 +135,59 @@ class Coursework extends Component {
       <div className="desk-container">
         <img src={Desk_Avatar} height="600px" >
         </img>
-        <div className="page-title">
+      </div>
+      {/* <div className="page-title">
+            coursework
+      </div> */}
+
+      <div>
+        this way to hell hole 
+      </div>
+
+      <div className="coursework-page-container-2">
+        <div className="coursework-description-container-2">
+          <div className="coursework-description-text-bold">
+          School is very important to me!
+          </div>
+          <div className="coursework-description-text-2">
+            Although I am currently a Course 6-2 (which means Electrical Engineering and Computer Science), I may soon become a lowly 6-3 (Computer Science) because I am falling into the trap of <i>enjoying</i> programming.
+          <br></br><br></br>
+          Here I’ve listed all my coursework with varying levels of detail and commentary. Proceed at your own risk.
+          </div>
+
+        </div>
+
+        <div className="coursework-description-text-bold">
             coursework
         </div>
+
+        <div className="coursework-list-container-2">
+          <div className="button-container">
+            <button onClick={this.toggleShowingCSOnly}>
+              cs-related only
+            </button>
+            
+            <button onClick={this.toggleShowingDescriptions}>
+              descriptions
+            </button>
+            <button onClick={this.toggleShowingCommentary}>
+              unnecessary commentary
+            </button>
+
+          </div>
+          <div >
+            {this.state.allSemesters.map((s) => (
+              <div>
+                <SemesterCard sem={s} allCourses={this.state.allCourses} showingCSOnly={this.state.showingCSOnly} showingDescriptions={this.state.showingDescriptions} showingCommentary={this.state.showingCommentary} />
+              </div>
+              ))
+            }
+          </div>
+
+        </div>
       </div>
-      <div className="coursework-page-container">
+
+      {/* <div className="coursework-page-container">
         <div className="coursework-description-container">
           <div className="coursework-description-text">
           School is very important to me! Although I am currently a Course 6-2 (which means Electrical Engineering and Computer Science), I may soon become a lowly 6-3 (Computer Science) because I am falling into the trap of <i>enjoying</i> programming.
@@ -162,19 +210,18 @@ class Coursework extends Component {
             </button>
 
           </div>
-          <div className="coursework-list-box">
+          <div >
             {this.state.allSemesters.map((s) => (
               <div>
                 <SemesterCard sem={s} allCourses={this.state.allCourses} showingCSOnly={this.state.showingCSOnly} showingDescriptions={this.state.showingDescriptions} showingCommentary={this.state.showingCommentary} />
               </div>
               ))
             }
-            
           </div>
 
         </div>
-      </div>
-    </div>
+      </div> */}
+    </div> 
 
     <div className="head-container-trolol">
       <div className="animated-text-container">

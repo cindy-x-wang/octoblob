@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Major+Mono+Display&family=Manuale&family=Nunito:wght@700&family=Open+Sans&family=Playfair+Display:wght@800&display=swap');
+
+.semester-border {
+    position: relative;
+    width: 100%;
+
+    margin: 20px 0px 20px 0px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.semester-label {
+    width: auto;
+
+    color: black;
+    position:relative; 
+    bottom: 12px; 
+    padding:0 15px; 
+    display: inline-block; 
+    background: #FFF9F1;
+
+    font-family: 'Manuale', serif;
+
+    align-self: center;
+}

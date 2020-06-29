@@ -1,3 +1,38 @@
 .hidden {
     display: none;
   }
+
+.courses-text-container {
+  margin: 0px 32px 16px;
+  align-self: left;
+}
+
+.courses-text {
+  width: 100%;
+
+  text-align: left;
+  font-family: Helvetica;
+}
+
+.course-names{
+  font-family: 'Nunito', sans-serif;
+  font-size: medium;
+
+  color: #283150;
+}
+.descriptions {
+  font-family: 'Open Sans', sans-serif;
+  font-size: small;
+}
+
+.unnecessary-commentary {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: smaller;
+  color: #8A92B1;
+  margin-top: 6px;
+  
+}
+
+ul {
+  list-style-type: none;
+}

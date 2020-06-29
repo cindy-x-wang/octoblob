@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../utilities.css";
-import "./ClassCard.css";
+import "./SemesterCard.css";
 
 import ClassCard from "./ClassCard.js";
 
@@ -20,26 +20,26 @@ class SemesterCard extends Component {
   
     render() {
       return (
-        <>
-        <div>
-            {this.props.sem.semName}
+        <div className="semester-border">
+          <div className="semester-label">
+              {this.props.sem.semName}
+          </div>
+          <div className="courses-text-container">
+          {this.props.showingCSOnly ? 
+              this.getSemClasses(this.props.sem.semNum).filter(course => course.CS == true).map((c,i) => (
+                  <div className="courses-text">
+                    <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
+                  </div>
+                  ))
+          : 
+              this.getSemClasses(this.props.sem.semNum).map((c,i) => (
+                    <div className="courses-text">
+                      <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
+                    </div>
+                    ))
+            }
+          </div>
         </div>
-        <div>
-        {this.props.showingCSOnly ? 
-            this.getSemClasses(this.props.sem.semNum).filter(course => course.CS == true).map((c) => (
-                <div>
-                <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} />
-                </div>
-                ))
-        : 
-            this.getSemClasses(this.props.sem.semNum).map((c) => (
-                   <div>
-                     <ClassCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} />
-                   </div>
-                   ))
-           }
-        </div>
-        </>
       );
     }
   }

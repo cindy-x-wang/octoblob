@@ -16,18 +16,18 @@ class ClassCard extends Component {
     render() {
       return (
         <ul>
-          <li>
+          <li className="course-names">
             {this.props.course.number} - {this.props.course.name}
           </li>
           <ul>
-            <li className={this.props.showingDescriptions ? "" : "hidden"}>
+            <li className={this.props.showingDescriptions ? "descriptions" : "hidden"}>
                 {this.props.course.description}
             </li>
-            <ul>
-                <li className={this.props.showingCommentary ? "" : "hidden"}>
+
+            <li className={this.props.showingCommentary ? "unnecessary-commentary" : "hidden"}>
                 {this.props.course.commentary}
-                </li>
-            </ul>
+            </li>
+            
           </ul>
           
          

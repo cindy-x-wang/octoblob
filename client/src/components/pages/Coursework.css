@@ -1,8 +1,11 @@
 .head-container-classes {
-    width: 100%;
+    width: auto;
     min-height: 100vh;
     left: 0px;
     top: 0px;
+
+    padding-left: 180px;
+    padding-right: 180px;
 
     background: #FFF9F1;
 
@@ -14,6 +17,8 @@
 
 .desk_container {
     height: 100vh;
+    width: auto;
+    text-align: center;
 
     display: flex;
     flex: 0 0 500px;
@@ -44,22 +49,68 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.coursework-page-container-2 {
+    width: 100%;
+    position: relative;
+
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
 }
 
 .coursework-description-container {
     position: relative;
-    width: 50%;
+    width: 40%;
+    height: auto;
 
-    padding-top: 100px;
-    padding-right: 100px;
+    padding-right: 50px;
 
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
 
 }
+
+.coursework-description-container-2 {
+    position: relative;
+    width: 60%;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+    align-self: center;
+
+}
+
+.coursework-description-text-bold{
+    width: 100%;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+
+    margin-bottom: 32px;
+
+    text-align: center;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
+
+    color: #C01C74;
+}
+
 .coursework-description-text {
-    width: 400px;
+    width: auto;
+    height: auto;
 
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -67,24 +118,56 @@
     font-size: 18px;
     line-height: 25px;
     text-align: left;
+    vertical-align: middle;
 
     color: #283150;
 
-    justify-self: right;
+    display: inline-block;
+
+    justify-self: left;
+}
+
+.coursework-description-text-2 {
+    width: auto;
+    height: auto;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #283150;
+
+    display: inline-block;
+
 }
 
 .coursework-list-container{
-    width: 50%;
+    width: 60%;
 
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
 
     display: flex;
     flex-direction: column;
 }
 
+.coursework-list-container-2 {
+    width: 80%;
+    max-width: 75vw;
+
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 .coursework-list-box {
-    max-width: 400px;
+    width: auto;
     padding: 20px;
     margin-bottom: 50px;
 
@@ -97,6 +180,8 @@
     max-width: 390px;
     display: flex;
     justify-content: space-evenly;
+
+    align-self: center;
 }
 
 .head-container-trolol {

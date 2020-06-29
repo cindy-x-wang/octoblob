@@ -15,6 +15,7 @@ const NavLink = props => (
         style: {
          //"font-weight": isCurrent ? 900 : "inherit",
          textShadow: isCurrent ? "0 0 1px white" : "none",
+         // display: isCurrent ? "none" : "",
         }
       };
     }}
@@ -44,10 +45,14 @@ class NavBar extends Component {
           </div>
           <div className="all-menu-items">
             <div className="menu-item">
+              <NavLink to="/" className="NavBar-link">
+                home
+              </NavLink>
+            </div>
+            <div className="menu-item">
               <NavLink to="/coursework" className="NavBar-link">
                 school things
               </NavLink>
-              
             </div>
             <div className="menu-item">
               <NavLink to="/projects" className="NavBar-link">

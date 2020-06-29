@@ -4,6 +4,7 @@ import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
 import NavBar from "./modules/NavBar.js"
 import Coursework from "./pages/Coursework.js";
+import Projects from "./pages/Projects.js";
 
 import "./App.css";
 import "../utilities.css";
@@ -39,6 +40,9 @@ class App extends Component {
           />
           <Coursework
             path="/coursework"
+          />
+          <Projects
+            path="/projects"
           />
           <Skeleton
             path="/Skeleton"

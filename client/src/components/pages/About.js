@@ -5,6 +5,7 @@ import "./About.css";
 
 import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
 import Footer from "../modules/Footer.js";
+import catpic from "./art/cat_laptop_cropped.jpg";
 
 class About extends Component {
   constructor(props) {
@@ -22,8 +23,18 @@ class About extends Component {
     return(
     <>
         <div className="head-container-about">
-            
-            <Footer/>
+            <div className="about-section">
+                <div className="catpic-container">
+                    <img src={catpic} width="550px"/>
+                </div>
+                <div className="about-text-bold">
+                    I actually don't code
+                </div>
+                <div className="about-text">
+                    ...it's all her.
+                </div>
+            </div>
+
         </div>
         <div className="head-container-trolol-1">
                 <AnimatedText

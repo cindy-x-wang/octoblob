@@ -7,7 +7,6 @@ import "./Resume.css";
 
 import ResumeSection from "../modules/ResumeSection";
 import Footer from "../modules/Footer.js";
-import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
 import {allResumeSections, allResumeContent} from "./ResumeContent";
 
 class Resume extends Component {
@@ -46,7 +45,6 @@ class Resume extends Component {
 
   render() {
     return(
-    <>
     <div className="head-container-resume">
 
       <div className="resume-page-container">
@@ -85,22 +83,7 @@ class Resume extends Component {
       </div>
       <Footer/>
 
-    </div> 
-
-    <div className="head-container-trolol">
-      <div className="animated-text-container">
-          <AnimatedText
-            textColor="#cd122d"
-            overlayColor="#fdc52c"
-            pointer="default"
-          >
-          this should animate and it doesn't and i am angy
-        </AnimatedText>
-
-      </div>
-    
     </div>
-  </>
     );
   }
 }

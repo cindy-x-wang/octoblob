@@ -14,6 +14,7 @@ import NavBar from "./modules/NavBar.js"
 import Coursework from "./pages/Coursework.js";
 import Projects from "./pages/Projects.js";
 import Resume from "./pages/Resume.js";
+import About from "./pages/About.js";
 
 /**
  * Define the "App" component as a class.
@@ -47,6 +48,9 @@ class App extends Component {
           />
           <Resume
             path="/resume"
+          />
+          <About
+            path="/about"
           />
           <Skeleton
             path="/Skeleton"

@@ -12,21 +12,28 @@ class ResumeCard extends Component {
     constructor(props) {
       super(props);
     }
+
+    getDescriptions = () => {
+      const descriptions = this.props.event.description.filter(content => content.imp <= this.props.importance);
+      return descriptions;
+    };
   
     render() {
       return (
         <ul>
           <li className="resume-header-names">
-            {this.props.course.number} - {this.props.course.name}
+            {this.props.event.date == "" ? (
+              this.props.event.name
+            ) :
+            (this.props.event.name.concat(" | ", this.props.event.date)
+            )}
           </li>
           <ul>
-            <li className={this.props.showingDescriptions ? "descriptions" : "hidden"}>
-                {this.props.course.description}
-            </li>
-
-            <li className={this.props.showingCommentary ? "unnecessary-commentary" : "hidden"}>
-                {this.props.course.commentary}
-            </li>
+            {this.getDescriptions().map((c,i) => (
+                <li className="descriptions">
+                  {c.text}
+                </li>
+              ))}
             
           </ul>
           

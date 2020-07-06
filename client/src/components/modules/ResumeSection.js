@@ -6,6 +6,9 @@ import ResumeCard from "./ResumeCard.js";
 
 /**
  * Renders a single section of resume.
+ * @param {allResumeContent} resume content.
+ * @param {allResumeSections} resume sections.
+ * @param {importance} current importance from slider.
  *
  */
 class ResumeSection extends Component {
@@ -13,8 +16,8 @@ class ResumeSection extends Component {
       super(props);
     }
 
-    getSectionContent = imp => {
-        const thisSection = this.props.allResumeContent.filter(content => content.importance <= imp);
+    getSectionContent = () => {
+        const thisSection = this.props.allResumeContent.filter(content => content.section == this.props.sec.sectionName).filter(content => content.importance <= this.props.importance);
         return thisSection;
       };
   
@@ -25,9 +28,9 @@ class ResumeSection extends Component {
               {this.props.sec.sectionName}
           </div>
           <div className="resume-text-container">
-              {this.getSectionContent(this.props.sec.sectionName).map((c,i) => (
+              {this.getSectionContent().map((c,i) => (
                 <div className="resume-text">
-                  <ResumeCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
+                  <ResumeCard importance={this.props.importance} event={c} key={i}/>
                 </div>
               ))}
     

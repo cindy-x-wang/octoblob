@@ -6,6 +6,7 @@ import "../../utilities.css";
 import "./Resume.css";
 
 import ResumeSection from "../modules/ResumeSection";
+import Footer from "../modules/Footer.js";
 import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
 import {allResumeSections, allResumeContent} from "./ResumeContent";
 
@@ -82,6 +83,7 @@ class Resume extends Component {
 
         </div>
       </div>
+      <Footer/>
 
     </div> 
 

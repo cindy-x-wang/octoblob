@@ -11,8 +11,6 @@ class Projects extends Component {
     super(props);
     // Initialize Default State
     this.state = {
-      allCourses,
-      allSemesters,
     };
   }
 

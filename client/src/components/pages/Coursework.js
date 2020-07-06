@@ -144,7 +144,7 @@ class Coursework extends Component {
       <div className="coursework-page-container-2">
         <div className="coursework-description-container-2">
           <div className="coursework-description-text-bold">
-          School is very important to me!
+          Wow I study?!
           </div>
           <div className="coursework-description-text-2">
             Although I am currently a Course 6-2 (which means Electrical Engineering and Computer Science), I may soon become a lowly 6-3 (Computer Science) because I am falling into the trap of <i>enjoying</i> programming.

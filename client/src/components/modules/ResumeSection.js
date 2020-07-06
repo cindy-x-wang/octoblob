@@ -13,13 +13,8 @@ class ResumeSection extends Component {
       super(props);
     }
 
-    getSectionContent = sec => {
-        const thisSection = this.props.allResumeContent.filter(content => content.section == sec);
-        return thisSection;
-      };
-
-    getSemClasses = sem => {
-        const thisSection = this.props.allResumeContent.filter(course => course.semester == sem);
+    getSectionContent = imp => {
+        const thisSection = this.props.allResumeContent.filter(content => content.importance <= imp);
         return thisSection;
       };
   
@@ -27,22 +22,15 @@ class ResumeSection extends Component {
       return (
         <div className="resume-section-border">
           <div className="resume-section-label">
-              {this.props.sem.sectionName}
+              {this.props.sec.sectionName}
           </div>
           <div className="resume-text-container">
-          {this.props.showingCSOnly ? 
-              this.getSectionContent(this.props.sem.sectionName).filter(sec => sec.CS == true).map((c,i) => (
-                  <div className="resume-text">
-                    <ResumeCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
-                  </div>
-                  ))
-          : 
-              this.getSectionContent(this.props.sem.sectionName).map((c,i) => (
-                    <div className="resume-text">
-                      <ResumeCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
-                    </div>
-                    ))
-            }
+              {this.getSectionContent(this.props.sec.sectionName).map((c,i) => (
+                <div className="resume-text">
+                  <ResumeCard course={c} showingCSOnly={this.props.showingCSOnly} showingDescriptions={this.props.showingDescriptions} showingCommentary={this.props.showingCommentary} key={i}/>
+                </div>
+              ))}
+    
           </div>
         </div>
       );

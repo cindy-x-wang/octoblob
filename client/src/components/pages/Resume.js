@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Slider, { Range } from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
 import "../../utilities.css";
 import "./Resume.css";
@@ -15,21 +17,26 @@ class Resume extends Component {
       showingCSOnly: false,
       showingDescriptions: false,
       showingCommentary: false,
+      importance: 1,
       allResumeContent,
       allResumeSections,
     };
   }
 
-  toggleShowingCSOnly = () => {
-    this.setState((prevState) => ({ showingCSOnly: !prevState.showingCSOnly }));
+  onSliderChange = importance => {
+    this.setState(
+      {
+        importance
+      },
+      () => {
+        console.log(this.state.importance);
+      }
+    );
   };
 
-  toggleShowingDescriptions = () => {
-    this.setState((prevState) => ({ showingDescriptions: !prevState.showingDescriptions }));
-  };
-
-  toggleShowingCommentary = () => {
-    this.setState((prevState) => ({ showingCommentary: !prevState.showingCommentary }));
+  getSections = () => {
+    const thisSection = this.state.allResumeSections.filter(sec => sec.importance <= this.state.importance);
+    return thisSection;
   };
 
   componentDidMount() {
@@ -48,23 +55,26 @@ class Resume extends Component {
         </div>
 
         <div className="resume-list-container">
-          <div className="button-container">
-            <button onClick={this.toggleShowingCSOnly}>
-              cs-related only
-            </button>
-            
-            <button onClick={this.toggleShowingDescriptions}>
-              descriptions
-            </button>
-            <button onClick={this.toggleShowingCommentary}>
-              unnecessary commentary
-            </button>
-
-          </div>
+          <div className="slider-container">
+            <Slider
+              min={0}
+              max={4}
+              marks={{
+                0: (<b>time is money</b>),
+                1: (<div>default</div>),
+                2: (<div>more info</div>),
+                3: (<div>you bored?</div>),
+                4: (<div>too much</div>)
+              }}
+              value={this.state.importance}
+              onChange={this.onSliderChange}
+              />
+            </div>
+          
           <div >
-            {this.state.allResumeSections.map((s) => (
+            {this.getSections().map((s) => (
               <div>
-                <ResumeSection sem={s} allResumeContent={this.state.allResumeContent} showingCSOnly={this.state.showingCSOnly} showingDescriptions={this.state.showingDescriptions} showingCommentary={this.state.showingCommentary} />
+                <ResumeSection sec={s} importance={this.state.importance} allResumeContent={this.state.allResumeContent}/>
               </div>
               ))
             }

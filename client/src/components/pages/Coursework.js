@@ -3,13 +3,10 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./Coursework.css";
 
-import Sitting_Avatar from "./art/Sitting_Avatar.png";
-import Mountain_Border from "./art/mountain_border.png";
-import Blob_Avatar from "./art/pink_blob_avatar.png";
 import Desk_Avatar from "./art/Desk_Avatar.png";
 
 import SemesterCard from "../modules/SemesterCard.js";
-import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
+import Footer from "../modules/Footer.js";
 
 const allSemesters = [
   
@@ -141,7 +138,7 @@ class Coursework extends Component {
       </div> */}
 
       <div>
-        this way to hell hole 
+        this way to hell 
       </div>
 
       <div className="coursework-page-container-2">
@@ -222,20 +219,7 @@ class Coursework extends Component {
         </div>
       </div> */}
     </div> 
-
-    <div className="head-container-trolol">
-      <div className="animated-text-container">
-          <AnimatedText
-            textColor="#cd122d"
-            overlayColor="#fdc52c"
-            pointer="default"
-          >
-          this should animate and it doesn't and i am angy
-        </AnimatedText>
-
-      </div>
-    
-    </div>
+    <Footer/>
   </>
     );
   }

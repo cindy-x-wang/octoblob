@@ -23,44 +23,28 @@ class Octoblob extends Component {
 
   render() {
     return(
-    <>
+    
     <div className="head-container-intro">
       <div className="blob-container">
-        <img src={Blob_Avatar} height="800px" >
-        </img>
+        {/* <div className="intro-container">
+          <div className="intro-text">
+              Hi, I'm Cindy! 
+          </div>
+            <div className="intro-text">
+              Hi, I'm Cindy!
+            </div>
+          
+            <div className="intro-text-small">
+              I’m currently studying computer science-y things at MIT, 
+              have one (1) angry cat, and love boba way more than I should.
+            </div>
+        </div> */}
+        
       </div>
     </div>
-    <div className="intro-container">
-      <div className="intro-text">
-          Hi, I'm Cindy! 
-      </div>
-      
-      <div className="intro-text-small">
-        I’m currently studying computer science-y things at MIT, 
-        have one (1) angry cat, and love boba way more than I should.
-      </div>
-    </div>
 
 
 
-    {/* <div className="mountain-border">
-        <img src={Mountain_Border}  width="100%">
-        </img>
-    </div> */}
-
-    <div className="head-container-trolol">
-      <div className="animated-text-container">
-          <AnimatedText
-            textColor="#cd122d"
-            overlayColor="#fdc52c"
-          >
-          this should animate and it doesn't and i am angy
-        </AnimatedText>
-
-      </div>
-    
-    </div>
-  </>
     );
   }
 }

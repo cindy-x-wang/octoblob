@@ -137,20 +137,6 @@ class Projects extends Component {
             </div>
         </div>
     </div>
-
-    <div className="head-container-trolol">
-      <div className="animated-text-container">
-          <AnimatedText
-            textColor="#cd122d"
-            overlayColor="#fdc52c"
-            pointer="default"
-          >
-          this should animate and it doesn't and i am angy
-        </AnimatedText>
-
-      </div>
-    
-    </div>
   </>
     );
   }

@@ -80,8 +80,9 @@
 
 .coursework-description-container-2 {
     position: relative;
-    width: 60%;
-    height: 350px;
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 100px;
 
     display: flex;
     flex-direction: column;
@@ -128,7 +129,7 @@
 }
 
 .coursework-description-text-2 {
-    width: auto;
+    width: 100%;
     height: auto;
 
     font-family: 'Open Sans', sans-serif;
@@ -204,4 +205,11 @@
     min-height: 600px;
     background-color: #202952;
     padding: 0 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .head-container-classes {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 }

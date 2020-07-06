@@ -10,8 +10,8 @@
 
 .head-container-intro {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    max-height: 100vh;
+    overflow: auto;
 
     background: #8A92B1;
 
@@ -22,10 +22,13 @@
 }
 
 .intro-container {
-    position: absolute;
-    left: calc(50vw - 210px);
-    bottom: calc(50vh - 24px);
+    position: relative;
+    /* left: calc(50vw - 210px);
+    bottom: calc(50vh - 24px); */
     height: auto;
+    width: 25%;
+
+    right: 10vw;
 
     background: none;
 
@@ -46,14 +49,38 @@
     align-items: center;
 }
 
+@media only screen and (min-width: 784px) {
+    .intro-text {
+        white-space: nowrap;
+        padding-left: 6.5vw;
+        font-size: 35px;
+    }
+    .intro-text-small {
+        padding-left: 6.5vw;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .intro-text {
+        padding-top: 1.5vh;
+        font-size: 3.5vw;
+    }
+    .intro-text-small {
+        padding-top: 1.5vh;
+        font-size: 1.82vw;
+    }
+}
+
+
 .intro-text {
     position: relative;
 
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
-    line-height: 38px;
+    /* font-size: 35px; */
+    /* line-height: 38px; */
 
     text-align: left;
 
@@ -62,15 +89,15 @@
 
 .intro-text-small {
     position: relative;
-    width: 275px;
+    width: 100%;
 
     margin-top: 10px;
 
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
+    /* font-size: 18px; */
+    /* line-height: 25px; */
     text-align: left;
 
     color: #283150;
@@ -81,12 +108,21 @@
     top: calc(100vh - (100vw*0.17578));
 }
 
-.blob_container {
+.blob-container {
+    min-height: 530px;
     height: 100vh;
+    min-width: 80vw;
+    max-width: 100vw;
+    overflow: hidden;
 
     display: flex;
-    flex: 0 0 500px;
+    flex: 0 0 auto;
 
     justify-content: center;
     align-items: center;
+
+    background-image: url('./art/pink_blob_avatar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 60%;
 }

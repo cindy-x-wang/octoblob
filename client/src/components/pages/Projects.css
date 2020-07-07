@@ -42,16 +42,12 @@
     justify-content: space-around;
 }
 
-.projects-column {
-    width: 33.3333%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-
-    padding: 10px;
-}
+.projects-grid {
+    display: grid;
+ 
+   /* define the number of grid columns */
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+ }
 
 .projects-block {
     padding: 10px;

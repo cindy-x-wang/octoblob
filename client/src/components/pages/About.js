@@ -25,7 +25,7 @@ class About extends Component {
         <div className="head-container-about">
             <div className="about-section">
                 <div className="catpic-container">
-                    <img src={catpic} width="550px"/>
+                    <img src={catpic} width="100%"/>
                 </div>
                 <div className="about-text-bold">
                     I actually don't code

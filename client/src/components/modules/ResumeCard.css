@@ -32,3 +32,19 @@
 ul {
   list-style-type: none;
 }
+
+@media (max-width: 480px) {
+  .resume-text-container {
+    margin: 0px 18px 12px 6px;
+  }
+
+  ul {
+    padding: 0px 0px 0px 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  ul {
+    padding: 0px 0px 0px 18px;
+  }
+}

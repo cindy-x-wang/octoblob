@@ -23,7 +23,7 @@ class Projects extends Component {
     <>
     <div className="head-container-projects">
         <div className="projects-page-container">
-            <div className="projects-column">
+            <div className="projects-grid">
                 <div className="background-block">
                     <img src={sample_project} width="100%"/>
                 </div>
@@ -31,14 +31,12 @@ class Projects extends Component {
                     this is project 4 methinks
                 </div>
 
-            </div>
-            <div className="projects-column">
+            
                 <div className="background-block">
                     this is project 2 methinks
                 </div>
                 
-            </div>
-            <div className="projects-column">
+            
                 <div className="background-block">
                     this is project 3 methinks
                 </div>

@@ -25,6 +25,7 @@ class Octoblob extends Component {
     return(
     
     <div className="head-container-intro">
+      <div className="blob-spacer"/>
       <div className="blob-container">
         {/* <div className="intro-container">
           <div className="intro-text">

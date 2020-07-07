@@ -130,7 +130,7 @@ class Coursework extends Component {
     <>
     <div className="head-container-classes">
       <div className="desk-container">
-        <img src={Desk_Avatar} height="600px" >
+        <img src={Desk_Avatar} height="590px" >
         </img>
       </div>
       {/* <div className="page-title">

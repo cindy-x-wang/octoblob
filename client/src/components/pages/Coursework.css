@@ -94,7 +94,10 @@
 }
 
 .coursework-description-text-bold{
-    width: 100%;
+    width: auto;
+
+    margin-left: 12px;
+    margin-right: 12px;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -129,8 +132,11 @@
 }
 
 .coursework-description-text-2 {
-    width: 100%;
+    width: auto;
     height: auto;
+
+    margin-left: 12px;
+    margin-right: 12px;
 
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -189,5 +195,12 @@
     .head-container-classes {
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .head-container-classes {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

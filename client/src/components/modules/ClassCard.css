@@ -36,3 +36,19 @@
 ul {
   list-style-type: none;
 }
+
+@media (max-width: 480px) {
+  .courses-text-container {
+    margin: 0px 6px 12px;
+  }
+
+  ul {
+    padding: 0px 0px 0px 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  ul {
+    padding: 0px 0px 0px 18px;
+  }
+}

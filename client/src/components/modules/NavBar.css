@@ -130,13 +130,18 @@
 
 .menu-toggle {
   display: none;
+  width: 100vw;
 }
 
-@media (max-width: 850px) {
+@media only screen 
+  and (max-width: 850px),
+  (max-device-width: 812px) {
   .NavBar-main {
-    /* display: none; */
-    visibility: hidden;
+    display: none;
   }
+
+
+
   .menu-toggle {
     display: inline;
   }

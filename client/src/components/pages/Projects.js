@@ -36,11 +36,22 @@ class Projects extends Component {
                 <Link to="./artcubator">
                   <div className="background-block" style={{backgroundColor: 'magenta'}}>
                     <img src={artcubator} width="100%"/>
+                    <div className="text-overlay">
+                      <div className="text-overlay-text">
+                        platform for students to buy and sell art
+                      </div>
+                    </div>
+
                   </div>
                 </Link>
                 <Link to="./habitaquarium">
                   <div className="background-block" style={{backgroundColor: 'lightBlue'}}>
                     <img src={habitaquarium} width="100%"/>
+                    <div className="text-overlay">
+                      <div className="text-overlay-text">
+                        web.lab 2020 project | a virtual aquarium to help you build good habits
+                      </div>
+                    </div>
                   </div>
                 </Link>
                 <Link to="../">
@@ -58,6 +69,11 @@ class Projects extends Component {
                           <img src={octoblob3} width="100%"/>
                         </div>
                       </div>
+                    <div className="text-overlay">
+                      <div className="text-overlay-text">
+                        ...this website
+                      </div>
+                    </div>
                     
                   </div>
                 </Link>

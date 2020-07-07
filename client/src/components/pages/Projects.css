@@ -103,7 +103,6 @@
 }
 
 .fade1 {
-    z-index: 99;
     opacity: 0;
     animation-name: fade1;
     animation-duration: 6s;
@@ -119,4 +118,33 @@
     animation-timing-function: linear;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
+
+.text-overlay {
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+
+    z-index: 100;
+}
+
+.text-overlay:hover {
+    opacity: .8;
+}
+
+.background-block > .text-overlay {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; 
+}
+
+.background-block:hover .text-overlay{
+    opacity: .8;
+}
+
+.text-overlay-text {
+    padding: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }

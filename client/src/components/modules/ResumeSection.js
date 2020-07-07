@@ -30,7 +30,7 @@ class ResumeSection extends Component {
           <div className="resume-text-container">
               {this.getSectionContent().map((c,i) => (
                 <div className="resume-text" key={i}>
-                  <ResumeCard importance={this.props.importance} event={c}/>
+                  <ResumeCard importance={this.props.importance} event={c} key={i}/>
                 </div>
               ))}
     

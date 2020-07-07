@@ -30,7 +30,7 @@ class ResumeCard extends Component {
           </li>
           <ul>
             {this.getDescriptions().map((c,i) => (
-                <li className="descriptions">
+                <li className="descriptions" key={i}>
                   {c.text}
                 </li>
               ))}

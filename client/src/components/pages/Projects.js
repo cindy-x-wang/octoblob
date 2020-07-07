@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "@reach/router";
+
 
 import "../../utilities.css";
 import "./Projects.css";
@@ -31,13 +33,15 @@ class Projects extends Component {
     <div className="head-container-projects">
         <div className="projects-page-container">
             <div className="projects-grid">
-                <div className="background-block">
+                <div className="background-block" style={{backgroundColor: 'magenta'}}>
+                  <Link to="./artcubator">
                     <img src={artcubator} width="100%"/>
+                  </Link>
                 </div>
-                <div className="background-block">
+                <div className="background-block" style={{backgroundColor: 'lightBlue'}}>
                     <img src={habitaquarium} width="100%"/>
                 </div>
-                <div className="background-block">
+                <div className="background-block" style={{backgroundColor: 'pink'}}>
                   <div className="slidehack">
                     <img src={octoblob1} width="100%"/>
                   </div>
@@ -50,13 +54,11 @@ class Projects extends Component {
                       <img src={octoblob3} width="100%"/>
                     </div>
                   </div>
-
-                  
                 </div>
                 
             
                 <div className="background-block">
-                    this is project 3 methinks
+                    there is nothing here but there will be (i hope)
                 </div>
                 
             </div>

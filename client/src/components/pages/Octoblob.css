@@ -123,10 +123,10 @@
     overflow: hidden;
 
     display: flex;
-    flex: 0 0 auto;
+    flex-direction: column-reverse;
 
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-content: flex-end;
 
     background-image: url('./art/chopped2.png');
     background-repeat: no-repeat;

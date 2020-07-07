@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../utilities.css";
 import "./Footer.css";
+import Icons from "./Icons";
 
 /**
  * Renders footer for the bottom of pages.
@@ -17,6 +18,7 @@ class Footer extends Component {
             <div className="footer-text">
                 made with love (and React)
             </div>
+            <Icons/>
         </div>
       );
     }

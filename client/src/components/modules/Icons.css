@@ -1,0 +1,20 @@
+.icon-container {
+    padding: 8px;
+    margin: 0px 0px 6px 0px;
+
+    align-self: center;
+
+    display: flex;
+}
+
+
+.icon-spacing {
+    padding: 5px 12px;
+    display: flex;
+    align-content: center;
+    opacity: .5;
+}
+
+.icon-spacing:hover {
+    opacity: 1 !important;
+}

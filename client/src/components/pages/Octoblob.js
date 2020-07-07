@@ -8,6 +8,7 @@ import Mountain_Border from "./art/mountain_border.png";
 import Blob_Avatar from "./art/pink_blob_avatar.png";
 
 import {AnimatedText} from "../modules/AnimatedText/AnimatedText";
+import Icons from "../modules/Icons";
 
 class Octoblob extends Component {
   constructor(props) {
@@ -40,6 +41,8 @@ class Octoblob extends Component {
               have one (1) angry cat, and love boba way more than I should.
             </div>
         </div> */}
+        
+        <Icons/>
         
       </div>
     </div>

@@ -24,7 +24,7 @@ class ClassCard extends Component {
                 {this.props.course.description}
             </li>
 
-            <li className={this.props.showingCommentary ? "unnecessary-commentary" : "hidden"}>
+            <li className={this.props.showingCommentary=="" ? "hidden" :(this.props.showingCommentary ? "unnecessary-commentary" : "hidden")}>
                 {this.props.course.commentary}
             </li>
             

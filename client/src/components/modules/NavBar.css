@@ -8,7 +8,7 @@
   align-items: flex-end;
 }
 
-.NavBar-sidebar {
+.NavBar-main {
   display: flex;
   padding: 10px;
   margin: 0;
@@ -126,4 +126,39 @@
 
 .NavBar-link + .NavBar-link {
   margin-left: var(--m);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .NavBar-main {
+    /* display: none; */
+    visibility: hidden;
+  }
+  .menu-toggle {
+    display: inline;
+  }
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
 }

@@ -4,6 +4,8 @@ import { Link } from "@reach/router";
 import "./NavBar.css";
 import { AnimatedText } from "./AnimatedText";
 
+import Hamburger from "./Hamburger";
+
 const NavLink = props => (
   <Link
     {...props}
@@ -35,7 +37,8 @@ class NavBar extends Component {
     return (
       <>
       <div className="NavBar-container">
-      <div className="NavBar-sidebar">
+      <Hamburger />
+      <div className="NavBar-main">
           <div className="NavBar-title-container u-pointer">
             <NavLink to="/" className="title-link">
               <AnimatedText textColor="#ffffff" overlayColor="#c01c74">

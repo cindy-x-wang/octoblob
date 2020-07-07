@@ -1,0 +1,46 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.logo {
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.logo-mobile {
+    display: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        display: none !important;
+    }
+    .logo-mobile {
+        display: initial;
+    }
+  }

@@ -71,9 +71,9 @@ class Resume extends Component {
             </div>
           
           <div >
-            {this.getSections().map((s) => (
+            {this.getSections().map((s,i) => (
               <div>
-                <ResumeSection sec={s} importance={this.state.importance} allResumeContent={this.state.allResumeContent}/>
+                <ResumeSection sec={s} importance={this.state.importance} allResumeContent={this.state.allResumeContent} key={i}/>
               </div>
               ))
             }

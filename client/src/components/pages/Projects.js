@@ -78,9 +78,16 @@ class Projects extends Component {
                   </div>
                 </Link>
             
-                <div className="background-block">
-                    there is nothing here but there will be (i hope)
-                </div>
+                {/* <Link to="./">
+                  <div className="background-block" style={{backgroundColor: 'lightBlue'}}>
+                    <img src={} width="100%"/>
+                    <div className="text-overlay">
+                      <div className="text-overlay-text">
+                        there's nothing here but there will be
+                      </div>
+                    </div>
+                  </div>
+                </Link> */}
                 
             </div>
         </div>

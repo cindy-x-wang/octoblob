@@ -15,6 +15,8 @@ import Coursework from "./pages/Coursework.js";
 import Projects from "./pages/Projects.js";
 import Resume from "./pages/Resume.js";
 import About from "./pages/About.js";
+import Artcubator from "./pages/project-pages/Artcubator";
+import HabitAquarium from "./pages/project-pages/HabitAquarium";
 
 /**
  * Define the "App" component as a class.
@@ -51,6 +53,12 @@ class App extends Component {
           />
           <About
             path="/about"
+          />
+          <Artcubator
+            path="/projects/artcubator"
+          />
+          <HabitAquarium
+            path="/projects/habitaquarium"
           />
           <Skeleton
             path="/Skeleton"

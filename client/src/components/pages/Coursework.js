@@ -87,6 +87,9 @@ class Coursework extends Component {
             </button>
 
           </div>
+          <div className="construction-text">
+          🚧 buttons under construction so excuse the lack of style; use them to show/hide details of coursework 🚧
+          </div>
           <div >
             {this.state.allSemesters.map((s) => (
               <div>

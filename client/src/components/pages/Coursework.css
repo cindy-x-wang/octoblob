@@ -152,6 +152,27 @@
 
 }
 
+.construction-text {
+    width: auto;
+    height: auto;
+
+    margin-left: 12px;
+    margin-right: 12px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #283150;
+
+    display: inline-block;
+
+}
+
 .hell-text {
     width: auto;
     height: auto;

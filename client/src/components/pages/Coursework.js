@@ -49,9 +49,12 @@ class Coursework extends Component {
         </img>
       </div>
 
-      <div>
-        this way to hell 
+      <div className="hell-text">
+        this way to <del>hell</del> course list 
       </div>
+      <a href="#courselist" className="link-icon-spacing">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+      </a>
 
       <div className="coursework-page-container-2">
         <div className="coursework-description-container-2">
@@ -59,14 +62,14 @@ class Coursework extends Component {
           Wow I study?!
           </div>
           <div className="coursework-description-text-2">
-            Although I am currently a Course 6-2 (which means Electrical Engineering and Computer Science), I may soon become a lowly 6-3 (Computer Science) because I am falling into the trap of <i>enjoying</i> programming.
+            I am a Course 6-3 (which means Computer Science) because I have fallen into the trap of <i>enjoying</i> programming.
           <br></br><br></br>
           Here I’ve listed all my coursework with varying levels of detail and commentary. Proceed at your own risk.
           </div>
 
         </div>
 
-        <div className="coursework-description-text-bold">
+        <div className="coursework-description-text-bold" id="courselist">
             coursework
         </div>
 

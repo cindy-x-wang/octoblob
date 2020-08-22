@@ -66,7 +66,7 @@ class Resume extends Component {
               min={0}
               max={4}
               marks={{
-                0: (<b>time is money</b>),
+                0: (<div>time is money</div>),
                 1: (<div>default</div>),
                 2: (<div>more info</div>),
                 3: (<div>you bored?</div>),

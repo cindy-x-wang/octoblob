@@ -30,7 +30,7 @@ export const allResumeContent = [
       "importance": 0,
       "description": [
         {
-          "text": "Candidate for Bachelor of Science in Electrical Engineering and Computer Science",
+          "text": "Candidate for Bachelor of Science in Computer Science",
           "imp": 1,
         },
       ]
@@ -44,6 +44,22 @@ export const allResumeContent = [
         {
           "text": "High School Diploma",
           "imp": 4,
+        },
+      ]
+    },
+    {
+      "section": "Employment",
+      "name": "Software Engineering Intern, Broad Institute",
+      "date": "Jun 2020 - present",
+      "importance": 0,
+      "description": [
+        {
+          "text": "Drove end-to-end renewal effort of MISCAST Project using React and NodeJS. Revamped codebase and developed major new features like gene visualization with PyMOL and automatic sequence alignment for protein isoforms.",
+          "imp": 0,
+        },
+        {
+          "text": "Produced design mockups and interviewed research scientists to gather feedback. Deployed final product on Google Cloud.",
+          "imp": 2,
         },
       ]
     },

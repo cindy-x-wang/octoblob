@@ -1,6 +1,10 @@
 export const allSemesters = [
   
     {
+      "semName": "Fall 2020 (current)",
+      "semNum": 3,
+    },
+    {
       "semName": "Spring 2020",
       "semNum": 2,
     },
@@ -11,6 +15,70 @@ export const allSemesters = [
   ]
   
 export const allCourses = [
+    {
+      "CS": true,
+      "semester": 3,
+      "name": "Design and Analysis of Algorithms",
+      "number": 6.046,
+      "description": "Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.",
+      "commentary": ""
+    },
+    {
+      "CS": true,
+      "semester": 3,
+      "name": "Introduction to Machine Learning",
+      "number": 6.036,
+      "description": "Introduces principles, algorithms, and applications of machine learning from the point of view of modeling and prediction; formulation of learning problems; representation, over-fitting, generalization; clustering, classification, probabilistic modeling; and methods such as support vector machines, hidden Markov models, and neural networks.",
+      "commentary": ""
+    },
+    {
+      "CS": true,
+      "semester": 3,
+      "name": "Computation Structures",
+      "number": 6.004,
+      "description": "Provides an introduction to the design of digital systems and computer architecture. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.",
+      "commentary": ""
+    },
+    {
+      "CS": false,
+      "semester": 3,
+      "name": "Oral Communication",
+      "number": "6.UAT",
+      "description": "Provides instruction in aspects of effective technical oral presentations and exposure to communication skills useful in a workplace setting. Students create, give and revise a number of presentations of varying length targeting a range of different audiences.",
+      "commentary": ""
+    },
+    {
+      "CS": false,
+      "semester": 3,
+      "name": "Differential Equations",
+      "number": 18.03,
+      "description": "Study of differential equations, including modeling physical systems.",
+      "commentary": ""
+    },
+    {
+      "CS": false,
+      "semester": 3,
+      "name": "Chinese V (Streamlined)",
+      "number": "21G.113",
+      "description": "Advanced level subject in streamlined sequence. Students conduct their own explorations of modern China using online and print materials, as well as interviews with Chinese in the Boston area.",
+      "commentary": ""
+    },
+    {
+      "CS": false,
+      "semester": 3,
+      "name": "Modern Chinese Fiction and Cinema",
+      "number": "21G.192",
+      "description": "Covers major works of Chinese fiction and film, from mainland China, Taiwan, and Hong Kong. Focusing on the modern period, examines how Chinese intellectuals, writers, and filmmakers have used artistic works to critically explore major issues in modern Chinese culture and society.",
+      "commentary": ""
+    },
+    {
+      "CS": false,
+      "semester": 3,
+      "name": "Design Studio: How to Design",
+      "number": 4.021,
+      "description": "Introduces fundamental design principles as a way to demystify design and provide a basic introduction to all aspects of the process.",
+      "commentary": "I'm considering a design double major!"
+    },
     {
       "CS": true,
       "semester": 2,

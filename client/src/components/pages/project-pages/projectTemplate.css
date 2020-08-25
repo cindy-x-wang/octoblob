@@ -55,6 +55,28 @@
     color: #283150;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+figcaption {
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    /* line-height: 25px; */
+
+    color: #283150;
+}
+
 .link-icon-spacing {
     padding: 5px 12px;
     opacity: .5;

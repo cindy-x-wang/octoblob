@@ -5,6 +5,9 @@ import "./projectTemplate.css";
 
 import {AnimatedText} from "../../modules/AnimatedText/AnimatedText";
 import Footer from "../../modules/Footer.js";
+import habitaquarium_home from "./habitaquarium_home.png";
+import habitaquarium_habits from "./habitaquarium_habits.png";
+import habitaquarium_ray from "./habitaquarium_ray.png";
 
 class HabitAquarium extends Component {
   constructor(props) {
@@ -41,6 +44,36 @@ class HabitAquarium extends Component {
                 </p>
                 <p className="project-text">
                     We wanted it to be a site that would fit into your day seamlessly while motivating you to look at your habits daily as a reminder. What better way than adorable fish?
+                </p>
+                <figure>
+                    <img src={habitaquarium_home} alt="home page" class="responsive"></img>
+                    <figcaption>Home page with Google login</figcaption>
+                </figure>
+                <p className="project-text">
+                    The goal is to fill your page with lovable, stress-relieving, home-grown fish (drawn in-house too). They swim around in the background, and sometimes I find myself watching them float randomly across the page. In order to motivate users to return to the site, the fish must be fed daily! Not feeding your fish for 3 conscecutive days will result in your oldest fish...expiring.
+                </p>
+                <p className="project-text">
+                    The goal is to fill your page with lovable, stress-relieving, home-grown fish (drawn in-house too). They swim around in the background, and sometimes I find myself watching them float randomly across the page. In order to motivate users to return to the site, the fish must be fed daily! Not feeding your fish for 3 conscecutive days will result in your oldest fish...expiring.
+                </p>
+                <figure>
+                    <img src={habitaquarium_habits} alt="habit tracking page" class="responsive"></img>
+                    <figcaption>habit tracker</figcaption>
+                </figure>
+                <p className="project-text">
+                    Completing tasks earns you sand dollars, which you can use to purchase more fish at the fish store!
+                </p>
+                <p className="project-text">
+                    The fish store is run by an aquarium enthusiast named Ray (just like my actual friend Ray, the aquarium enthusiast). You can chat him to purchase fish to add to your collection. I am extra proud of this page because I was wholly responsible for it, from the idea of having a chatbot instead of a traditional store, to the frontend and backend implementation.
+                </p>
+                <figure>
+                    <img src={habitaquarium_ray} alt="habit tracking page" class="responsive"></img>
+                    <figcaption>fish store: chat with the owner Ray :)</figcaption>
+                </figure>
+                <p className="project-text">
+                    Ultimately as my first site ever, this project gave me the confidence to start my own website. Even if it was just blundering along and Googling something every 5 minutes, I had a lot of fun creating a site of my very own.
+                </p>
+                <p className="project-text">
+                    Things we used: React, MongoDB, herokuapp
                 </p>
             </div>
 

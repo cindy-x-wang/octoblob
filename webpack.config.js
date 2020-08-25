@@ -54,10 +54,13 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|gif|pdf)$/,
         use: [
           {
-            loader: "url-loader",
+            loader: "file-loader",
+            options: {
+              name: '[path][name].[ext]?meow[contenthash]',
+            },
           },
         ],
       },

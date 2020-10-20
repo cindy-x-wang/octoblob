@@ -26,7 +26,7 @@ export const allResumeContent = [
     {
       "section": "Education",
       "name": "Massachusetts Institute of Technology",
-      "date": "Aug 2019 - May 2023",
+      "date": "Aug 2019 - May 2022",
       "importance": 0,
       "description": [
         {
@@ -224,8 +224,12 @@ export const allResumeContent = [
       "section": "Hobbies",
       "name": "Alpha Chi Omega",
       "date": "Theta Omicron Chapter",
-      "importance": 4,
+      "importance": 3,
       "description": [
+        {
+          "text": "I'm VP Intellectual Development, which means I get to plan fun events for us sisters to expand our brains :0",
+          "imp": 4,
+        },
       ]
     },
     

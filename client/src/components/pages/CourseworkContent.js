@@ -71,14 +71,14 @@ export const allCourses = [
       "description": "Covers major works of Chinese fiction and film, from mainland China, Taiwan, and Hong Kong. Focusing on the modern period, examines how Chinese intellectuals, writers, and filmmakers have used artistic works to critically explore major issues in modern Chinese culture and society.",
       "commentary": ""
     },
-    {
-      "CS": false,
-      "semester": 3,
-      "name": "Design Studio: How to Design",
-      "number": 4.021,
-      "description": "Introduces fundamental design principles as a way to demystify design and provide a basic introduction to all aspects of the process.",
-      "commentary": "I'm considering a design double major!"
-    },
+    // {
+    //   "CS": false,
+    //   "semester": 3,
+    //   "name": "Design Studio: How to Design",
+    //   "number": 4.021,
+    //   "description": "Introduces fundamental design principles as a way to demystify design and provide a basic introduction to all aspects of the process.",
+    //   "commentary": "I'm considering a design double major!"
+    // },
     {
       "CS": true,
       "semester": 2,

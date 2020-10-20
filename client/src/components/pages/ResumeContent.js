@@ -97,10 +97,6 @@ export const allResumeContent = [
           "text": "Designed and implemented reports to analyze and display data for all assigned projects.",
           "imp": 3,
         },
-        {
-          "text": "Designed and implemented reports to analyze and display data for all assigned projects.",
-          "imp": 3,
-        },
       ]
     },
     {

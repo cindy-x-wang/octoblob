@@ -52,9 +52,6 @@ class HabitAquarium extends Component {
                 <p className="project-text">
                     The goal is to fill your page with lovable, stress-relieving, home-grown fish (drawn in-house too). They swim around in the background, and sometimes I find myself watching them float randomly across the page. In order to motivate users to return to the site, the fish must be fed daily! Not feeding your fish for 3 conscecutive days will result in your oldest fish...expiring.
                 </p>
-                <p className="project-text">
-                    The goal is to fill your page with lovable, stress-relieving, home-grown fish (drawn in-house too). They swim around in the background, and sometimes I find myself watching them float randomly across the page. In order to motivate users to return to the site, the fish must be fed daily! Not feeding your fish for 3 conscecutive days will result in your oldest fish...expiring.
-                </p>
                 <figure>
                     <img src={habitaquarium_habits} alt="habit tracking page" class="responsive"></img>
                     <figcaption>habit tracker</figcaption>

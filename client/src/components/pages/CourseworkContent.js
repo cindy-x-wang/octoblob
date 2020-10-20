@@ -21,7 +21,7 @@ export const allCourses = [
       "name": "Design and Analysis of Algorithms",
       "number": 6.046,
       "description": "Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.",
-      "commentary": ""
+      "commentary": "Ford-Fulkerson will help me prevent intruders owo"
     },
     {
       "CS": true,
@@ -29,7 +29,7 @@ export const allCourses = [
       "name": "Introduction to Machine Learning",
       "number": 6.036,
       "description": "Introduces principles, algorithms, and applications of machine learning from the point of view of modeling and prediction; formulation of learning problems; representation, over-fitting, generalization; clustering, classification, probabilistic modeling; and methods such as support vector machines, hidden Markov models, and neural networks.",
-      "commentary": ""
+      "commentary": "softmax reminds me of baymax"
     },
     {
       "CS": true,
@@ -37,7 +37,7 @@ export const allCourses = [
       "name": "Computation Structures",
       "number": 6.004,
       "description": "Provides an introduction to the design of digital systems and computer architecture. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.",
-      "commentary": ""
+      "commentary": "NAND gates. So many NAND gates."
     },
     {
       "CS": false,
@@ -45,7 +45,7 @@ export const allCourses = [
       "name": "Oral Communication",
       "number": "6.UAT",
       "description": "Provides instruction in aspects of effective technical oral presentations and exposure to communication skills useful in a workplace setting. Students create, give and revise a number of presentations of varying length targeting a range of different audiences.",
-      "commentary": ""
+      "commentary": "I can talk about things :D (technically)"
     },
     {
       "CS": false,
@@ -53,7 +53,7 @@ export const allCourses = [
       "name": "Differential Equations",
       "number": 18.03,
       "description": "Study of differential equations, including modeling physical systems.",
-      "commentary": ""
+      "commentary": "eigenvector? what's that?"
     },
     {
       "CS": false,
@@ -69,7 +69,7 @@ export const allCourses = [
       "name": "Modern Chinese Fiction and Cinema",
       "number": "21G.192",
       "description": "Covers major works of Chinese fiction and film, from mainland China, Taiwan, and Hong Kong. Focusing on the modern period, examines how Chinese intellectuals, writers, and filmmakers have used artistic works to critically explore major issues in modern Chinese culture and society.",
-      "commentary": ""
+      "commentary": "ahhhhh tons of reading and material to digest but so worth it"
     },
     // {
     //   "CS": false,

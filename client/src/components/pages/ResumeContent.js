@@ -26,11 +26,11 @@ export const allResumeContent = [
     {
       "section": "Education",
       "name": "Massachusetts Institute of Technology",
-      "date": "Aug 2019 - May 2022",
+      "date": "Aug 2019 - May 2023",
       "importance": 0,
       "description": [
         {
-          "text": "Candidate for Bachelor of Science in Computer Science",
+          "text": "Candidate for Bachelor of Science in Electrical Engineering and Computer Science",
           "imp": 1,
         },
       ]
@@ -49,8 +49,48 @@ export const allResumeContent = [
     },
     {
       "section": "Employment",
+      "name": "Software Engineering Intern, Stripe",
+      "date": "Jun 2022 - Aug 2022",
+      "importance": 0,
+      "description": [
+        {
+          "text": "Created loan-performance prediction model to enable SMB merchants to take advantage of Stripe Capital loans.",
+          "imp": 0,
+        },
+        {
+          "text": "Designed and rolled-out A/B experiment to measure user growth from the new model, quanitfying growth in loan origination.",
+          "imp": 1,
+        },
+        {
+          "text": "Implemented corporate treasury integration for Stripe Capital transaction-based underwriting.",
+          "imp": 2,
+        },
+      ]
+    },
+    {
+      "section": "Employment",
+      "name": "Software Engineering Intern, Roblox",
+      "date": "Jun 2021 - Aug 2021",
+      "importance": 0,
+      "description": [
+        {
+          "text": "Independently designed and implemented private server permissions infra that enforces ACLs based on friendship status.",
+          "imp": 0,
+        },
+        {
+          "text": "Developed a new queue handling framework that consumes change notifications via AWS SQS. Handles recurring payment processing, game environment changes, configuration rollouts, and user privacy setting enforcement.",
+          "imp": 1,
+        },
+        {
+          "text": "Delivered a highly requested feature that allows developers to change private server prices when the change benefits users.",
+          "imp": 2,
+        },
+      ]
+    },
+    {
+      "section": "Employment",
       "name": "Software Engineering Intern, Broad Institute",
-      "date": "Jun 2020 - present",
+      "date": "Jun 2020 - Feb 2021",
       "importance": 0,
       "description": [
         {
@@ -66,7 +106,7 @@ export const allResumeContent = [
     {
       "section": "Employment",
       "name": "Assistant Debate Coach, The Harker School",
-      "date": "Jul 2019 - present",
+      "date": "Jul 2019 - May 2022",
       "importance": 0,
       "description": [
         {
@@ -83,19 +123,19 @@ export const allResumeContent = [
       "section": "Employment",
       "name": "Business Operations Intern, TAL",
       "date": "Jun 2019 - Jul 2019",
-      "importance": 0,
+      "importance": 2,
       "description": [
         {
           "text": "Analysis, interpretation, and reporting of service and sales data.",
-          "imp": 0,
+          "imp": 2,
         },
         {
           "text": "Identified trends in Competition Math class enrollment and improved promotional strategies.",
-          "imp": 1,
+          "imp": 3,
         },
         {
           "text": "Designed and implemented reports to analyze and display data for all assigned projects.",
-          "imp": 3,
+          "imp": 4,
         },
       ]
     },
@@ -118,7 +158,7 @@ export const allResumeContent = [
       "importance": 0,
       "description": [
         {
-          "text": "Java, Python, HTML, CSS, JavaScript, NodeJS",
+          "text": "Typescript, C#, Java, Python, HTML, CSS, JavaScript, NodeJS, C#, C/C++",
           "imp": 0,
         },
       ]
@@ -190,7 +230,7 @@ export const allResumeContent = [
           "imp": 3,
         },
         {
-          "text": "I'm one of the Cover Coordinators and a choreographer!",
+          "text": "I'm one of the 2021-22 Captains :D",
           "imp": 4,
         },
       ]
@@ -205,7 +245,27 @@ export const allResumeContent = [
           "text": "I cheered some in highschool and it's just fun",
           "imp": 4,
         },
+        {
+          "text": "It's my senior year now I'm cheer captain <3",
+          "imp": 4,
+        },
         
+      ]
+    },
+    {
+      "section": "Hobbies",
+      "name": "Syncopasian",
+      "date": "",
+      "importance": 3,
+      "description": [
+        {
+          "text": "My beloved East Asian a cappella group <3",
+          "imp": 3,
+        },
+        {
+          "text": "I didn't sing before college it kinda just happened...",
+          "imp": 4,
+        },
       ]
     },
     {

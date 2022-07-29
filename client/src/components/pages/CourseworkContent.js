@@ -1,7 +1,18 @@
 export const allSemesters = [
-  
     {
-      "semName": "Fall 2020 (current)",
+      "semName": "Spring 2022",
+      "semNum": 6,
+    },
+    {
+      "semName": "Fall 2021",
+      "semNum": 5,
+    },
+    {
+      "semName": "Spring 2021",
+      "semNum": 4,
+    },
+    {
+      "semName": "Fall 2020",
       "semNum": 3,
     },
     {
@@ -15,6 +26,102 @@ export const allSemesters = [
   ]
   
 export const allCourses = [
+  {
+    "CS": true,
+    "semester": 6,
+    "name": "Computer Systems Engineering",
+    "number": 6.033,
+    "description": "Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.",
+    "commentary": "everything is eventually consistent"
+  },
+  {
+    "CS": true,
+    "semester": 6,
+    "name": "Signal Processing",
+    "number": 6.003,
+    "description": "Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression.",
+    "commentary": "I can fourier transform in my sleep now"
+  },
+  {
+    "CS": false,
+    "semester": 6,
+    "name": "Three Kingdoms",
+    "number": "21G.042",
+    "description": "Tracing adaptations of the great Chinese epic novel, Three Kingdoms, across diverse media, and considers what underlies the appeal of this classic narrative over the centuries. Through focus on historical events in the period 206 BC to AD 280, examines the representation of power, diplomacy, war, and strategy, and explores the tension among competing models of political authority and legitimacy.",
+    "commentary": "hubris."
+  },
+  {
+    "CS": false,
+    "semester": 5,
+    "name": "Classics of Chinese Literature",
+    "number": "21G.044",
+    "description": "Introduction to some of the major genres of traditional Chinese poetry, fiction, and drama. Intended to give students a basic understanding of the central features of traditional Chinese literary genres, as well as to introduce students to the classic works of the Chinese literary tradition. Works read include Journey to the West, Outlaws of the Margin, Dream of the Red Chamber, and the poetry of the major Tang dynasty poets.",
+    "commentary": "learned that heroes need to be 8ft tall"
+  },
+  {
+    "CS": false,
+    "semester": 5,
+    "name": "Introductory Biology",
+    "number": 7.012,
+    "description": "Exploration into biochemistry and structural biology, molecular and cell biology, genetics and immunology, and viruses and bacteria. Special topics can include cancer biology, aging, and the human microbiome project.",
+    "commentary": "didn't learn how to make covid go away, would not recommend"
+  },
+  {
+    "CS": true,
+    "semester": 5,
+    "name": "Software Studio",
+    "number": 6.170,
+    "description": "Provides design-focused instruction on how to build software applications. Design topics include classic human-computer interaction (HCI) design tactics (need finding, heuristic evaluation, prototyping, user testing), conceptual design (modeling and evaluating constituent concepts), abstract data modeling, and visual design. Implementation topics include functional programming in Javascript, reactive front-ends, web services, and databases.",
+    "commentary": "finally had to learn Vue :')"
+  },
+  {
+    "CS": false,
+    "semester": 4,
+    "name": "Fundamentals of Music",
+    "number": "21M.051",
+    "description": "Introduces students to the rudiments of music through oral, aural, and written practice utilizing rhythm, melody, intervals, scales, chords, and musical notation.",
+    "commentary": "staplers make bad music"
+  },
+  {
+    "CS": false,
+    "semester": 4,
+    "name": "Business Chinese",
+    "number": "21G.120",
+    "description": "Aimed at advanced-level students to enhance language skills and cultural knowledge specific to conducting business in Chinese societies. Topics include the specialization of materials used in commercial, economic, and business contexts; Greater China's economic development, business culture, and etiquette; and case studies from successful international enterprises in China.",
+    "commentary": "$$$ -> ¥¥¥"
+  },
+  {
+    "CS": true,
+    "semester": 4,
+    "name": "Embedded Systems",
+    "number": 6.08,
+    "description": "Introduction to embedded systems in the context of connected devices, wearables, and the \"Internet of Things\" (IoT). Topics include microcontrollers, energy utilization, algorithmic efficiency, interfacing with sensors, networking, cryptography, and local versus distributed computation.",
+    "commentary": "implemented phones...with so much latency...but AES and RSA encryption! ...on Arduinos"
+  },
+  {
+    "CS": true,
+    "semester": 4,
+    "name": "Elements of Software Construction",
+    "number": 6.031,
+    "description": "Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions.",
+    "commentary": "Tests tests tests more tests"
+  },
+  {
+    "CS": true,
+    "semester": 4,
+    "name": "Circuits and Electronics",
+    "number": 6.002,
+    "description": "Fundamentals of linear systems, and abstraction modeling of multi-physics lumped and distributed systems using lumped electrical circuits. Linear networks involving independent and dependent sources, resistors, capacitors, and inductors.",
+    "commentary": "My favorite project was building an ID reader out of inductor loops...until I realized there's better encryption on the card readers by the door"
+  },
+  {
+    "CS": false,
+    "semester": 4,
+    "name": "Intro to Solid-State Chemistry",
+    "number": 3.091,
+    "description": "Provides a broad introduction to topics in materials science and the curricula in the Department of Materials Science and Engineering's core subjects.",
+    "commentary": "crystallography is hard."
+  },
     {
       "CS": true,
       "semester": 3,

@@ -158,7 +158,7 @@ export const allResumeContent = [
       "importance": 0,
       "description": [
         {
-          "text": "Typescript, C#, Java, Python, HTML, CSS, JavaScript, NodeJS, C#, C/C++",
+          "text": "Typescript, Java, Python, HTML, CSS, JavaScript, NodeJS, C#, C/C++",
           "imp": 0,
         },
       ]
